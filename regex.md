@@ -50,7 +50,7 @@ Logic       | Feature         | Example      | Match
 \(...)      | group           | d(og|oll)    | dog, doll
 \\1         | content group 1 | d(o)\\1m     | doo,
 \\2         | content group 2 | (a)(b)\\2\\1 | abba
-\\(?: ...)  | non-group       | d(?:og)      | dog
+\(?: ...)  | non-group       | d(?:og)      | dog
 
 
 # References
