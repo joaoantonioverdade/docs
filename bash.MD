@@ -81,6 +81,7 @@ When an interactive shell that is not a login shell is started:
 Shortcuts     | Action
 --------------|------------------------------------
 CTRL + A      | start of the command line
+CTRL + C      | kills current process
 CTRL + D      | logout
 CTRL + E      | end of the command line
 CTRL + R/S    | reverse-i-search
@@ -88,9 +89,18 @@ CTRL + K      | erases all to the right of cursor
 CTRL + W      | erases token by token
 CTRL + Z      | stops process
 
+## Programming
+
+
 
 ### References
 
 [Reference Manual](http://www.gnu.org/software/bash/manual/bash.pdf)
+
 [Tools Summary](http://www.tldp.org/LDP/GNU-Linux-Tools-Summary/GNU-Linux-Tools-Summary.pdf)
+
 [Bash Beginners Guide](http://www.tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf)
+
+[Advanced Bash-Scripting Guide](http://www.tldp.org/LDP/abs/html/)
+
+[Bash Programming Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
