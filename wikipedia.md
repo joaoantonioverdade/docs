@@ -18,6 +18,8 @@
 
 [Verificabilidade](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Verificabilidade)
 
+[Fontes confiáveis](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Fontes_confi%C3%A1veis)
+
 [Livro de estilo](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Livro_de_estilo)
 
 [Página de testes](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_de_testes)
@@ -26,11 +28,12 @@
 
 ## Portuguese and general rules
 
-* Wikimedia é a fundação que mantém o projeto wikipédia
-* Não é local para opiniões, teorias ou experiências pessoais
-* Não é um fórum de debate
-* Imparcial com consenso
-* Citar fontes
+* wikimedia é a fundação que mantém o projeto wikipédia
+* não é local para opiniões, teorias ou experiências pessoais
+* não é um fórum de debate
+* imparcial com consenso
+* citar fontes
+* princípio da verificabilidade e não da veracidade
 
 
 ## Que páginas editar
