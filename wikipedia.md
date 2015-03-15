@@ -3,7 +3,7 @@
 ## References
 
 
-[Personal Page](https://en.wikipedia.org/wiki/User:Jo%C3%A3o_A._Rodrigues)
+[Personal Page (en|pt)](https://pt.wikipedia.org/wiki/User:Jo%C3%A3o_A._Rodrigues) 
 
 [Portugal Wikiproject](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Portugal)
 
