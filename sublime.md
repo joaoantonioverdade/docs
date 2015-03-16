@@ -8,13 +8,13 @@
 # TODO: Add ruller to python files: 	"rulers": [79],
 
 
-## Snippets
+## snippets
 
 Command Pallet + "Snippet" to show available.
 
 To activate the snippet, write down the activation word along with a TAB.
 
-## Pluggins
+## pluggins
 
 * Emmet (zencoding)
 * Advance new file (SUPER+ALT+N)
@@ -25,4 +25,9 @@ To activate the snippet, write down the activation word along with a TAB.
 * HTTP Requester (SUPERT+ALT+R)
 * Live Reload
 
+## tips
+
+* multiple cursors (CTRL+SHIFT+L)
+* create array line by line and then joining line (CTRL+J)
+ 
 
