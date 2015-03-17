@@ -18,6 +18,8 @@
 
 [Verificabilidade](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Verificabilidade)
 
+[Recomendações](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Lista_de_recomenda%C3%A7%C3%B5es)
+
 [Fontes confiáveis](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Fontes_confi%C3%A1veis)
 
 [Livro de estilo](https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Livro_de_estilo)
