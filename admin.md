@@ -20,3 +20,6 @@
 
 	* ScritpAlias /cgi-bin/ /usr/local/apache2/cgi-bin/ #httpd.conf
 
+## bandwidth
+
+* slurm -i eht0
