@@ -1,4 +1,4 @@
-# admin
+# System Administration tips 
 
 
 ## Apache
@@ -20,6 +20,6 @@
 
 	* ScritpAlias /cgi-bin/ /usr/local/apache2/cgi-bin/ #httpd.conf
 
-## bandwidth
+## Bandwidth
 
 * slurm -i eht0
