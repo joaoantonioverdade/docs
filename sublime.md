@@ -1,4 +1,6 @@
-# sublime
+# Sublime
+
+## References
 
 [Documentation](http://www.sublimetext.com/docs/2/)
 
@@ -9,9 +11,12 @@
 [Package Control](https://packagecontrol.io/)
 
 
-### tweaks
+## Tips and Tweaks
 
-#### adding a syntax specific ruller:
+* multiple cursors (CTRL+SHIFT+L)
+* create array line by line and then joining line (CTRL+J)
+
+#### Adding a syntax specific ruller:
 
 open Syntax Specific settings and add:
 
@@ -20,13 +25,13 @@ open Syntax Specific settings and add:
 	],
 
  
-## snippets
+## Snippets
 
 Command Pallet + "Snippet" to show available.
 
 To activate the snippet, write down the activation word along with a TAB.
 
-## pluggins
+## Common Pluggins
 
 * Emmet (zencoding)
 * Advance new file (SUPER+ALT+N)
@@ -38,9 +43,5 @@ To activate the snippet, write down the activation word along with a TAB.
 * Live Reload
 * GLUE
 
-## tips
-
-* multiple cursors (CTRL+SHIFT+L)
-* create array line by line and then joining line (CTRL+J)
  
 
