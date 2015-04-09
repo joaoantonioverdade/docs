@@ -34,7 +34,7 @@ Proven options:
 
 * Caffeine - 400 mg /day
 * Yohimbine - total 15 mg /twice a day
-* L-Theanine - total 400 mg / twice a day, same time as caffeine, similiar or higher dose 
+* L-Theanine - total 400 mg /twice a day, same time as caffeine, similiar or higher dose 
 
 ## Libido
 
