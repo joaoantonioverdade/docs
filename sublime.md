@@ -9,7 +9,7 @@
 [Package Control](https://packagecontrol.io/)
 
 
-### Tweaks
+### tweaks
 
 #### adding a syntax specific ruller:
 
