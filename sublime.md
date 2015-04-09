@@ -8,9 +8,18 @@
 
 [Package Control](https://packagecontrol.io/)
 
-TODO: Add ruller to python files "rulers": [79],
 
+### Tweaks
 
+#### adding a syntax specific ruller:
+
+open Syntax Specific settings and add:
+
+	"rulers": [
+		79
+	],
+
+ 
 ## snippets
 
 Command Pallet + "Snippet" to show available.
