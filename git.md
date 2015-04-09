@@ -6,9 +6,9 @@ sudo apt-get install git
 
 ### Configuration
 
-git config --global user.name "joaoantonioverdade"
+* git config --global user.name "joaoantonioverdade"
 
-git config --global user.email "joao.antonio.verdade@gmail.com"
+* git config --global user.email "joao.antonio.verdade@gmail.com"
 
 ### Creating new repo
 
