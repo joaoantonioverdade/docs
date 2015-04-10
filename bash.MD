@@ -89,6 +89,18 @@ CTRL + K      | erases all to the right of cursor
 CTRL + W      | erases token by token
 CTRL + Z      | stops process
 
+
+## Environment variables
+
+Variable      | Contains
+--------------|------------------------
+HOME          | home directory
+TERM          | terminal type
+SHELL         | path to shell
+USER          | login name
+PATH          | a list to search for programs
+
+
 ## Programming
 
 
