@@ -56,7 +56,7 @@ When an interactive shell that is not a login shell is started:
 
 ### Text operations
 
-\# To know by heart: head, tail, cat, wc, diff, sdiff, sort, uniq, **cut**, **paste**
+\# To know by heart: head, tail, cat, wc, diff, sdiff, sort, uniq, **cut**, **paste**, grep
 
 #### Search
 
