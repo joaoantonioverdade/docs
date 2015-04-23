@@ -46,9 +46,9 @@ Classes     | Feature
 
 Logic       | Feature         | Example      | Match
 ------------|-----------------|--------------|------------
-\|          | or              | ab|ba        | ab, ba
-\(...)      | group           | d(og|oll)    | dog, doll
-\\1         | content group 1 | d(o)\\1m     | doo,
+\|          | or              | ab\|ba       | ab, ba
+\(...)      | group           | d(og\|oll)   | dog, doll
+\\1         | content group 1 | d(o)\\1m     | doom
 \\2         | content group 2 | (a)(b)\\2\\1 | abba
 \(?: ...)  | non-group       | d(?:og)      | dog
 
