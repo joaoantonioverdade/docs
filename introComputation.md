@@ -27,4 +27,25 @@ A finite automata is a model with finite states and inputs. For example a automa
 
 The probabilistic counterpart are the **markov chains**.
 
+A language is called a **regular language** if some finite automaton recognizes it.
+
+In the theory of computation the objects are languages and the tools include operations specifically designed for manipulating them. The **regular operations** are three of them (A={good, bad}; B={boy, girl}):
+
+* Union A U B, {good, bad, boy, girl}
+* Concatenation A o B, {goodboy, goodgirl, badboy, badgirl}
+* Star A*, {E, good, bad, goodgood, goodbad, badgood, goodbadbad, ...}
+
+
+In a **nondeterministic** machine after a given input we don't know in which will be the next state.  
+
+* DFA, deterministic finite automaton
+* NFA, nondeterministic finite automaton (when the same input has two possible states, both *branches* are followed:
+
+![NFA example](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/resources/NFA%20example.png)
+
+Every nondeterministic finite automaton has an equivalent deterministic finite automaton.
+
+
+
+
 
