@@ -45,6 +45,14 @@ In a **nondeterministic** machine after a given input we don't know in which wil
 
 Every nondeterministic finite automaton has an equivalent deterministic finite automaton.
 
+**Regular expressions** are build up expressions describing languages, originated from regular operations, ex.: (0 U 1)*
+
+Regular expressions and finite automata are equivalent in their descriptive power. Any regular expression can be converted into a finite automaton that recognizes the language it describes and vice versa.
+
+Certain languages cannot be recognized by any finite automaton, ex.: L={0^n 1^n | n >=0 }, a finite automaton needs a finite number of states, which in the language L isn't limited.
+
+Common examples of non-regular languages are the HTML or XML, where regular expressions fail to parse them.
+
 
 
 
