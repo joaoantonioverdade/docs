@@ -80,6 +80,19 @@ A stack can hold an unlimited amount of information. For the non regular languag
 Read symbols from the input. As each 0 is read, push it onto the stack. As soon as 1s are seen, pop a 0 off the stack for each 1 read. If reading the input is finished exactly when the stack becomes empty of 0s, accpet the input. If the stack becomes empty while 1s remain or if the 1s are finished while the stack still contains 0s or if any 0s appear in the input following 1s, reject the input.
 
 
+### Chapter 3 - Turing Machines
+
+Similar to a finite automaton but with an unlimited and unrestricted memory, a **Turing machine** is a much accurate model of a general purpose computer. A Turing machine can do everything that a real computer can do. Nonetheless, even a Turing machine cannot solve certain problems. In a very real sense, these problems are beyond the theoretical limits of computation.
+
+
+The Turing machine model uses an infinite tape as its unlimited memory. It has a tape head that can read and write symbols and move around on the tape. Initially the tape contains only the input string and is blank everywhere eles. If the machine needs to store information, it may write this information on the tape. To read the information that it has written, the machine can move its head back over it. The machine continues computing until it decides to produce an output. The outputs *accept* and *reject* are obtained by entering designated accepting and rejecting states. If it doesn't enter an accepting or a rejecting state, it will go on forever, never halting.
+
+The differences between finite automata and Turing machines:
+* A turing machine can both write on the tape and read from it
+* The read-write head can move both to the left and to the right
+* The tape is infinite
+* The special states for rejecting and accepting take effect immediately
+
 
 
 
