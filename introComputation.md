@@ -110,5 +110,11 @@ Every context-free language is decidable (given a finite sequence of symbols as 
 ![Relationship among classes of languages](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/resources/relationship_among_classes_of_languages.png)
 
 
+One of the most philosophically important theorems of the theory of computation is the **halting problem**.
+There is a specific problem that is algorithmically unsolvable like verifying if a program performs as specified. There can be no general procedure to decide if a self-contained computer program will eventually halt. The halting problem is undecidable.
+
+
+
+
 
 
