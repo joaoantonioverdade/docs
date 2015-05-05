@@ -100,6 +100,7 @@ Distinguishing a machine taht is looping from one that is merely taking a long t
 If a Turing machine can decide a language this is called Turing-decidable, decidable or recursive language.
 
 
+Informally speaking, an **algorithm** is a collection of simple instructions for carrying out some task. The definition came in the 1936 papers of Alonzo Church and Alan Turing. Church used a notational system called the lambda-calculus to define algorithms. Turing did it with his *machines*. These two definitions were shown to be equivalent. This connection between the informal notion of algorithm and the precise definition has come to be called the **Church-Turing thesis**.
 
 
 
