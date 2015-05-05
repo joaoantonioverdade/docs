@@ -93,15 +93,13 @@ The differences between finite automata and Turing machines:
 * The tape is infinite
 * The special states for rejecting and accepting take effect immediately
 
-When we start a Turing machine on an input, three outcomes are possible. The machine may accpet, reject or loop. By loop we mean that the machine simply does not halt. Looping may entail any simple or complex behavior that never leads to a halting state.
+When we start a Turing machine on an input, three outcomes are possible. The machine may accept, reject or loop. By loop we mean that the machine simply does not halt. Looping may entail any simple or complex behavior that never leads to a halting state.
 
-Distinguishing a machine taht is looping from one that is merely taking a long time is difficult. For this reason we prefer Turing machines that halt on all inputs; such machines never loop. These machine are called **deciders** because they always make a decision to accept or reject. 
+Distinguishing a machine that is looping from one that is merely taking a long time is difficult. For this reason we prefer Turing machines that halt on all inputs; such machines never loop. These machine are called **deciders** because they always make a decision to accept or reject. 
 
 If a Turing machine can decide a language this is called Turing-decidable, decidable or recursive language.
 
-
 Informally speaking, an **algorithm** is a collection of simple instructions for carrying out some task. The definition came in the 1936 papers of Alonzo Church and Alan Turing. Church used a notational system called the lambda-calculus to define algorithms. Turing did it with his *machines*. These two definitions were shown to be equivalent. This connection between the informal notion of algorithm and the precise definition has come to be called the **Church-Turing thesis**.
 
-
-
+### Chapter 4 - Decidability
 
