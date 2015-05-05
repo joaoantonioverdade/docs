@@ -103,3 +103,12 @@ Informally speaking, an **algorithm** is a collection of simple instructions for
 
 ### Chapter 4 - Decidability
 
+Why study unsolvability? Knowing when a problem is algorithmically unsolvable is useful because then you realize that the problem must be simplified or altered before you can find an algorithmic solution. Like any tool, computers have capabilities and limitations that must be appreciated if they are to be used well. 
+
+Every context-free language is decidable (given a finite sequence of symbols as input, accepts it if belongs to the language and rejects it otherwise).
+
+![Relationship among classes of languages](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/resources/relationship_among_classes_of_languages.png)
+
+
+
+
