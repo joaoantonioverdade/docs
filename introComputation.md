@@ -131,6 +131,7 @@ Making machines that reproduce themselves is possible. The recursion theorem dem
 Instead of a single, universal definition of information, several definitions are used - depending upon the application. Next will be presented the computability theory of information. Starting with the following binary sequences:
 
 A = 010101010101010101010101010101010
+
 B = 111001011010001111010100000011101
 
 Intuitively, sequence A contains little information because it is merely a repetition of the pattern 01 n times. In contrast, sequence B appears to contain more information. We define the quantity of information contained in an object to be the size of that object's smallest representation or description. By a description of an object we mean a precise and unambigous characterization of the object so that we may recreate it from the description alone. Thus sequence A contains little information because it has a small description, whereas sequence B apparently contains more information because it seems to have no concise description.
