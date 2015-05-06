@@ -137,3 +137,30 @@ B = 111001011010001111010100000011101
 Intuitively, sequence A contains little information because it is merely a repetition of the pattern 01 n times. In contrast, sequence B appears to contain more information. We define the quantity of information contained in an object to be the size of that object's smallest representation or description. By a description of an object we mean a precise and unambigous characterization of the object so that we may recreate it from the description alone. Thus sequence A contains little information because it has a small description, whereas sequence B apparently contains more information because it seems to have no concise description.
 
 
+### Chapter 7 - Time Complexity
+
+
+Measuring complexity, taking the language A = { 0^k 1^k | k >= 0}. Obviously A is a decidable language. How much time does a single-tape Turing machine need to decide A? The turing machine:
+
+M1 = On input string w: 
+* Scan across the tape and reject if a 0 is found to the right of a 1.
+* Repeat if both 0s and 1s remain on the tape:
+ * Scan across the tape, crossing off a single 0 and a single 1.
+* If 0s still remain after all the 1s have been crossed off, or if 1s still remain after all the 0s have been crossed off, reject. Otherwise, if neither 0s nor 1s remain on the tape, accept. 
+
+The number of steps that an algorithm uses on a particular input may depende on several parameters. The input, nodes, edges... For simplicity we compute the running time of an algorithm purely as a function of the length of the string representing the input and don't consider any other parameters. 
+
+Because the exact running time of an algorithm often is a complex expression, we usually just estimate it using a convenient form of estimation called **asymptotic analysis**. The running time of the algorithm is used with large inputs, with the highest order term of the expression and diregarding both the coefficient of that term and any lower order terms. For example the function f(n) = 6n³ + 2n² + 20n +45 has four terms, with 6n³ with the highest order. Disregarding the coefficient 6, we say that f is asymptotically at most n³. The **asymptotic notation** or **big-O notation** for describing this relationship is f(n) = O(n³). 
+
+Analyzing the algorithm M1:
+
+* Each of its four stages are seen separately.
+* In stage 1 the machine scans across the tape, performing this scan uses n steps. Repositioning the head at the left-hand end of the tape uses another n steps. Total: 2n steps. In big-O notation we say that this stage uses O(n) steps.
+* In stages 2 and 3 the machine repeatedly scans the tape and crosses off a 0 and 1 on each scan. Each scan uses O(n) steps. Because each scan crosses of two symbols, at most n/2 scans can occur. Total: (n/2)O(n) = O(n²) steps.
+* In stage 4 the machine makes a single scan. Total: O(n)
+
+Total time on an input of length n is O(n) + O(n²) + O(n), or O(n²).
+
+
+
+
