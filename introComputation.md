@@ -185,3 +185,16 @@ Exponential time algorithms typically arise when we solve problems by exchaustiv
 
 All reasonable deterministic computational models are **polynomially equivalent**.
 
+**P** (Class P) is the class of language that are decidable in polynomial time on a deterministic single-tape Turing machine. In other words, P = U TIME(n^k).
+
+P is invariant for all models of computation that are polunomially equivalent to the deterministic single-tape Turing machine and P roughly corresponds to the class of problems taht are realistically solvable on a computer.
+
+When we analyze an algorithm to show that it runs in polynomial time, we need to do two things. First, we have to give a polynomial upper bound on the number of stages that the algorithm uses when it run on an input of length n. Then, we have to examine the individual stages in the description of the algorithm to be sure that each can be implemented in polynomial time on a reasonable deterministic model.
+
+Every context-free language is decidable in polynomial time, this is, a member o Class P.
+
+To get a polynomial time algorithm we introduce a powerful technique called **dynamic programming**. This technique uses the accumulation of information about smaller subproblems to solve larger problems. We record the solution to any subproblem so that we need to solve it only once. We do so by making a table of all subproblems and entering their solutions systematically as we find them.
+
+
+
+
