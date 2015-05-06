@@ -175,3 +175,13 @@ M2 = On input string w:
 To analyze the running time of M2, we first observe that every stage takes O(n) time. We then determine the number of times that each is executed. Stages 1 and 5 are executed once, taking a total of O(n) time. Stage 4 crosses off at least half the 0s and 1s each time it is executed, so at most 1 + log2n iterations of the repeat loop occur before all get crossed off. Thus the total time of stages 2,3, and 4 is (1 + log2n) O(n), or O(nlogn), the running time of M2. This result cannot be further improved on single-tape Turing machine.
 
 We can decide in O(n) time, **linear time**, if the Turing machine has a second tape. 
+
+
+# Polynomial time
+
+Note the dramatic difference between the growth rate of typically ocurring polynomials such as n³ and typically occurring exponentials such as 2^n.  Polynomial time algorithms are fast enough for many purposes, but exponential time algorithms rarely are useful.
+
+Exponential time algorithms typically arise when we solve problems by exchaustively searching through a space of solutions, called brute-force search.
+
+All reasonable deterministic computational models are **polynomially equivalent**.
+
