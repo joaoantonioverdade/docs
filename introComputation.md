@@ -176,8 +176,7 @@ To analyze the running time of M2, we first observe that every stage takes O(n) 
 
 We can decide in O(n) time, **linear time**, if the Turing machine has a second tape. 
 
-
-# Polynomial time
+**Polynomial time**
 
 Note the dramatic difference between the growth rate of typically ocurring polynomials such as n³ and typically occurring exponentials such as 2^n.  Polynomial time algorithms are fast enough for many purposes, but exponential time algorithms rarely are useful.
 
