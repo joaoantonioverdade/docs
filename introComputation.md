@@ -162,5 +162,16 @@ Analyzing the algorithm M1:
 Total time on an input of length n is O(n) + O(n²) + O(n), or O(n²).
 
 
+Is there a machine that decides A asymptotically more quickly? We can improve the running time by crossing off two 0s and two 1s on every scan instead of just one because doing so cuts the number of scans by half. But that improves the running time only by a factor of 2 and doesn't affect the asymptotic running time. 
+The following machine, M2, uses a different method to decide A asymptotically faster, nlogn.
 
+M2 = On input string w:
+* Scan across the tape and reject if a 0 is found to the right of a 1.
+* Repeat as long as some 0s and some 1s remain on the tape:
+ * Scan across the tape, checking whether the total number of 0s and 1s remaining is even or odd. If it is odd, reject.
+ * Scan again across the tape, crossing of every other 0 starting with the first 0, and then crossing of every other 1 starting with the first 1.
+* If no 0s and no 1s remain on the tape, accept. Otherwise reject.
 
+To analyze the running time of M2, we first observe that every stage takes O(n) time. We then determine the number of times that each is executed. Stages 1 and 5 are executed once, taking a total of O(n) time. Stage 4 crosses off at least half the 0s and 1s each time it is executed, so at most 1 + log2n iterations of the repeat loop occur before all get crossed off. Thus the total time of stages 2,3, and 4 is (1 + log2n) O(n), or O(nlogn), the running time of M2. This result cannot be further improved on single-tape Turing machine.
+
+We can decide in O(n) time, **linear time**, if the Turing machine has a second tape. 
