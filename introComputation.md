@@ -114,6 +114,16 @@ One of the most philosophically important theorems of the theory of computation 
 There is a specific problem that is algorithmically unsolvable like verifying if a program performs as specified. There can be no general procedure to decide if a self-contained computer program will eventually halt. The halting problem is undecidable.
 
 
+### Chapter 5 - Reducibility
+
+The primary method for proving thatproblems are computationally unsolvable is the **reducibility**.
+A reduction is a way of converting one problem to another problem in such a way that a solution to the second problem can be used to solve the first problem.
+
+Reducibility always involves two problems, which we call A and B. If A reduces to B, we can use a solution to B to solve A. So in our example, A is the problem of finding your way around the city and B is the problem of obtaining a map. Note that reducibility says nothing about solving A or B alone, but only about the solvability of A in the presence of a solution to B.
+
+When A is reducible to B, solving A cannot be harder that solving B because a solution to B gives a solution to A. In terms of computability theory, if A is reducible to B and B is decidable, A also is decidable. Equivalently, if A is undecidable and reducible to B, B is undecidable.
+
+
 
 
 
