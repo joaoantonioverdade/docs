@@ -194,6 +194,14 @@ Every context-free language is decidable in polynomial time, this is, a member o
 
 To get a polynomial time algorithm we introduce a powerful technique called **dynamic programming**. This technique uses the accumulation of information about smaller subproblems to solve larger problems. We record the solution to any subproblem so that we need to solve it only once. We do so by making a table of all subproblems and entering their solutions systematically as we find them.
 
+**NP Class**
+
+We can avoid brute-force search in many problems and obtain polynomial time solutions. However, attempts to avoid brute force in certain other problems, including many interesting and useful ones, haven been successful, and polynomial time algorithms that solve them aren known to exist.
+
+Why have we been unsuccessful in finding polynomial time algorithms for these problems? We don't know the answer to this important question. Perhaps these problems have, as yet undiscovered, polynomial time algorithms that rest on unknown principles. Or possibly some of these problems simply cannot be solved in polynomial time. They may be intrinsically difficult.
+
+**NP** is the class of languages that have polunomial time verifiers (nondeterministic polynomial time).
+
 
 
 
