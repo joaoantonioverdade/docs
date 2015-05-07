@@ -200,8 +200,14 @@ We can avoid brute-force search in many problems and obtain polynomial time solu
 
 Why have we been unsuccessful in finding polynomial time algorithms for these problems? We don't know the answer to this important question. Perhaps these problems have, as yet undiscovered, polynomial time algorithms that rest on unknown principles. Or possibly some of these problems simply cannot be solved in polynomial time. They may be intrinsically difficult.
 
-**NP** is the class of languages that have polunomial time verifiers (nondeterministic polynomial time).
+**NP** is the class of languages that have polynomial time verifiers (nondeterministic polynomial time). 
 
+The question of wheter P = NP is one of the greatest unsolved problems in theoretical computer science and contemporary mathematics. If these classes were equal, any polynomially verifiable problem would be polynomially decidable. Most researchers believe that the two classes are not equal because people have invested enormous effort to find polynomial time algorithms for certain problems in NP, without success.
 
+**NP-Completeness**
+
+One important advance on the P versus NP question was the discover of certain problems in NP whose individual complexity is related to that of the entire class. If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called **NP-complete**.
+
+Certain computational problems are solvable in principle, but the solutions require so much time or space that they can be used in practive. Such problems are called **intractable**.
 
 
