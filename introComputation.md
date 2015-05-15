@@ -1,6 +1,7 @@
-## Theory of computation to revive my university days knowledge 
+## Computation review
 
 Resume of Sipser - Introduction to the theory of computation
+Resume of Problem solving with algorithms and data structures
 
 -
 
@@ -209,5 +210,19 @@ The question of wheter P = NP is one of the greatest unsolved problems in theore
 One important advance on the P versus NP question was the discover of certain problems in NP whose individual complexity is related to that of the entire class. If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called **NP-complete**.
 
 Certain computational problems are solvable in principle, but the solutions require so much time or space that they can be used in practive. Such problems are called **intractable**.
+
+
+** Common functions for Big-O
+
+
+f(n)      | Name
+----------|--------
+1         | Constant
+log n     | Logarithmic
+n         | Linear
+n log n   | Log Linear
+n^2       | Quadratic
+n^3       | Cubic
+2^n       | Exponential
 
 
