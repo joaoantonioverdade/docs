@@ -212,7 +212,7 @@ One important advance on the P versus NP question was the discover of certain pr
 Certain computational problems are solvable in principle, but the solutions require so much time or space that they can be used in practive. Such problems are called **intractable**.
 
 
-** Common functions for Big-O
+**Common functions for Big-O**
 
 
 f(n)      | Name
