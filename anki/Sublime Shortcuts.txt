@@ -1,0 +1,52 @@
+[Sublime Text 3 shortcuts]<div><br /></div><div>F11</div>	Full Screen	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>shift + F11</div>	Distraction free mode	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + p</div>	Command palette	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctr + .(`)</div>	show console	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + k + b</div>	shot/hide sidebar	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + 7</div>	comment	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + 7 ( shift + / )</div>	block comment	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + k + u</div>	uppercase	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div><br /></div>ctrl + k + l	lowercase	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + d</div>	select word (use multiple times to select next instance of the selected word)	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl &nbsp;+ click</div>	create multiple cursors for multi-editing	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + space</div>	expand selection to scope. Repeating keeps expanding.	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + m</div>	expand to brackets	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + j</div>	expand to indentation	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + p</div>	open file based on name	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + g</div>	go to line number	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + r</div>	go to symbol	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + p then @</div>	open file based on name and search for symbol	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + m</div>	go to matching bracket	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div><br /></div>ctrl + l	select line	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div><br /></div>ctrl + shift + k	delete line	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + enter</div>	insert line after	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + enter</div>	insert line before	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + [up]</div>	swap line up	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + [down]</div>	swap line down	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + d</div>	duplicate line	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + j</div>	join line	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div><br /></div>ctrl + shift + [	fold	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + k + j</div>	unfold all	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + f</div>	find	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>f3</div>	find next	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>shift + f3</div>	find previous	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + f</div>	search all files in a folder	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + h</div>	replace	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + f then alt + enter</div>	find a certain term then select them all for multi-editing	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + n</div>	new window	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + n</div>	new tab<div><br /></div>	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + #</div>	select a tab (ie alt + 3)	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div>ctrl + w	close tab	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + #</div>	move tab to a pane (i.e. ctrl + shift + 2)	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + #</div>	focus on a pane (i.e. ctrl + shift + 2)	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 1</div>	one column	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 2</div>	two columns	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 3</div>	three columns	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 4</div>	four columns	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 8</div>	two rows	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 9</div>	three rows	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>alt + shift + 5</div>	two x two grid	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + f2</div>	create bookmark	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>f2</div>	next bookmark	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>shift &nbsp;+ f2</div>	previous bookmark	sublime_text_shortcuts
+[Sublime Text 3 shortcuts]<div><br /></div><div>ctrl + shift + f2</div>	clear bookmarks	sublime_text_shortcuts
