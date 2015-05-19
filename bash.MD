@@ -69,6 +69,7 @@ When an interactive shell that is not a login shell is started:
 \# Copying from SSH to local:
 
 `scp user@0.0.0.0:filename /local/file`
+
 `scp -r user@0.0.0.0:folder/ /local/dir`
 
 \# Copying from local to SSH:
@@ -85,6 +86,7 @@ CTRL + C      | kills current process
 CTRL + D      | logout
 CTRL + E      | end of the command line
 CTRL + R/S    | reverse-i-search
+CTRL + U      | erases all to the left of cursor
 CTRL + K      | erases all to the right of cursor
 CTRL + W      | erases token by token
 CTRL + Z      | stops process
