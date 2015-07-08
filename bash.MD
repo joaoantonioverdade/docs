@@ -54,6 +54,10 @@ When an interactive shell that is not a login shell is started:
 
 `ln -s target source`
 
+\# Compress
+
+tar -zcvf result.tar.gz folder/
+
 ### Text operations
 
 \# To know by heart: head, tail, cat, wc, diff, sdiff, sort, uniq, **cut**, **paste**, grep, tree, jobs
@@ -75,6 +79,7 @@ When an interactive shell that is not a login shell is started:
 \# Copying from local to SSH:
 
 `scp /home/file user@0.0.0.0:/remote/file`
+
 
 
 #### Shortcuts
