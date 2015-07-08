@@ -54,9 +54,10 @@ When an interactive shell that is not a login shell is started:
 
 `ln -s target source`
 
-\# Compress
+\# Compress and decompress
 
 tar -zcvf result.tar.gz folder/
+tar -zxvf compressed.tar.gz
 
 ### Text operations
 
