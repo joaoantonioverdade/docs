@@ -86,7 +86,7 @@ Read symbols from the input. As each 0 is read, push it onto the stack. As soon 
 Similar to a finite automaton but with an unlimited and unrestricted memory, a **Turing machine** is a much accurate model of a general purpose computer. A Turing machine can do everything that a real computer can do. Nonetheless, even a Turing machine cannot solve certain problems. In a very real sense, these problems are beyond the theoretical limits of computation.
 
 
-The Turing machine model uses an infinite tape as its unlimited memory. It has a tape head that can read and write symbols and move around on the tape. Initially the tape contains only the input string and is blank everywhere eles. If the machine needs to store information, it may write this information on the tape. To read the information that it has written, the machine can move its head back over it. The machine continues computing until it decides to produce an output. The outputs *accept* and *reject* are obtained by entering designated accepting and rejecting states. If it doesn't enter an accepting or a rejecting state, it will go on forever, never halting.
+The Turing machine model uses an infinite tape as its unlimited memory. It has a tape head that can read and write symbols and move around on the tape. Initially the tape contains only the input string and is blank everywhere else. If the machine needs to store information, it may write this information on the tape. To read the information that it has written, the machine can move its head back over it. The machine continues computing until it decides to produce an output. The outputs *accept* and *reject* are obtained by entering designated accepting and rejecting states. If it doesn't enter an accepting or a rejecting state, it will go on forever, never halting.
 
 The differences between finite automata and Turing machines:
 * A turing machine can both write on the tape and read from it
@@ -117,7 +117,7 @@ There is a specific problem that is algorithmically unsolvable like verifying if
 
 ### Chapter 5 - Reducibility
 
-The primary method for proving thatproblems are computationally unsolvable is the **reducibility**.
+The primary method for proving that problems are computationally unsolvable is the **reducibility**.
 A reduction is a way of converting one problem to another problem in such a way that a solution to the second problem can be used to solve the first problem.
 
 Reducibility always involves two problems, which we call A and B. If A reduces to B, we can use a solution to B to solve A. So in our example, A is the problem of finding your way around the city and B is the problem of obtaining a map. Note that reducibility says nothing about solving A or B alone, but only about the solvability of A in the presence of a solution to B.
@@ -187,7 +187,7 @@ All reasonable deterministic computational models are **polynomially equivalent*
 
 **P** (Class P) is the class of language that are decidable in polynomial time on a deterministic single-tape Turing machine. In other words, P = U TIME(n^k).
 
-P is invariant for all models of computation that are polunomially equivalent to the deterministic single-tape Turing machine and P roughly corresponds to the class of problems taht are realistically solvable on a computer.
+P is invariant for all models of computation that are polynomially equivalent to the deterministic single-tape Turing machine and P roughly corresponds to the class of problems that are realistically solvable on a computer.
 
 When we analyze an algorithm to show that it runs in polynomial time, we need to do two things. First, we have to give a polynomial upper bound on the number of stages that the algorithm uses when it run on an input of length n. Then, we have to examine the individual stages in the description of the algorithm to be sure that each can be implemented in polynomial time on a reasonable deterministic model.
 
@@ -209,7 +209,7 @@ The question of wheter P = NP is one of the greatest unsolved problems in theore
 
 One important advance on the P versus NP question was the discover of certain problems in NP whose individual complexity is related to that of the entire class. If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called **NP-complete**.
 
-Certain computational problems are solvable in principle, but the solutions require so much time or space that they can be used in practive. Such problems are called **intractable**.
+Certain computational problems are solvable in principle, but the solutions require so much time or space that they can be used in practice. Such problems are called **intractable**.
 
 
 **Common functions for Big-O**
