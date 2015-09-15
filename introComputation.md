@@ -209,7 +209,7 @@ The question of wheter P = NP is one of the greatest unsolved problems in theore
 
 One important advance on the P versus NP question was the discover of certain problems in NP whose individual complexity is related to that of the entire class. If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called **NP-complete**.
 
-Certain computational problems are solvable in principle, but the solutions require so much time or space that they can be used in practice. Such problems are called **intractable**.
+Certain computational problems are solvable in principle, but the solutions require so much time or space that they cannot be used in practice. Such problems are called **intractable**.
 
 
 **Common functions for Big-O**
