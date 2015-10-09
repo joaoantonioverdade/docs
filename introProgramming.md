@@ -48,22 +48,14 @@ In a **dynamically typed language**, every variable name is (unless it is null) 
 
 A **constructor** in a class is a special type of subroutine called to create an object. It prepares the new object for use, often accepting arguments that the constructor uses to set required member variables. It has no explicit return type.
 
-* Dynamic dispatch/message passing* is the responsibility of the object, not the external code, to 'on-demand' select the procedural code to run/execute in response to a method call, typically by looking up the method at run time in a table associated with the object. 
+**Dynamic dispatch/message passing** is the responsibility of the object, not the external code, to 'on-demand' select the procedural code to run/execute in response to a method call, typically by looking up the method at run time in a table associated with the object. 
 
+**Encapsulation** is the hidding of information, blocking the access to internal objects.
 
+**Object composition**, use of objects within objects.
 
+**Open recursion**, methods calling other methods inside the same class.
 
-The difference between a function and a procedure is due to the returning value of the function. A procedure is a set of command which can be executed in order. 
-A method differs from a function for its capacity to interact with the class data members.
+**Delegation**, the object only performs what it *knows best* and the rest is done using inheritance or object composition.
 
-TODO:
-
-Dynamic programming
-Memoization
-Currying
-Closures
-Reflection
-Decorators
-
-OO
-
+**Memoization** is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
