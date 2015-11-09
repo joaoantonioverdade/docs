@@ -113,6 +113,16 @@ PATH          | a list to search for programs
 ## Programming
 
 
+## Encoding
+
+Find encoding
+
+'file -bi filename' 
+
+Convert from encoding
+
+iconf -f iso-xpto -t utf-8 input.txt > output.txt
+
 
 ### References
 
