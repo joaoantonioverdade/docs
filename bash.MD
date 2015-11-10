@@ -121,7 +121,7 @@ Find encoding
 
 Convert from encoding
 
-iconf -f iso-xpto -t utf-8 input.txt > output.txt
+iconv -f iso-xpto -t utf-8 input.txt > output.txt
 
 
 ### References
