@@ -29,4 +29,12 @@ sudo apt-get install git
 [SSH keys] (https://help.github.com/articles/generating-ssh-keys/)
 
 
+### Github independent
 
+#### server
+
+* git init --bare project_name.git
+
+#### client
+
+* git clone ssh://user@server/folder/rep.git <directory>
