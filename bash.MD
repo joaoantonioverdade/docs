@@ -68,6 +68,9 @@ tar -zxvf compressed.tar.gz
 
 cat input | tr '[:upper:]' '[:lower:]' > output
 
+\# range of lines from file
+sed -n 10,100p input
+
 #### Search
 
 \# Search filename
