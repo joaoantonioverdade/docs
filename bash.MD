@@ -64,6 +64,13 @@ tar -zxvf compressed.tar.gz
 
 \# To know by heart: head, tail, cat, wc, diff, sdiff, sort, uniq, **cut**, **paste**, grep, tree, jobs
 
+\# lowercase file
+
+cat input | tr '[:upper:]' '[:lower:]' > output
+
+\# range of lines from file
+sed -n 10,100p input
+
 #### Search
 
 \# Search filename
