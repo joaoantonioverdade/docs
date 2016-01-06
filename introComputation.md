@@ -23,7 +23,7 @@ The simplest model is the **finite state machine** or **finite automata**
 A finite automata is a model with finite states and inputs. For example a automatic door with two states: open and closed, with two inputs (some pads in the rear and front of the door) that reflect four possible inputs: front, read, both, none. Depending on the input the model jumps from one state to another: 
 
 
-![State diagram](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/resources/State_diagram_for_automatic_door.png)
+![State diagram](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/images/State_diagram_for_automatic_door.png)
 
 
 The probabilistic counterpart are the **markov chains**.
@@ -42,7 +42,7 @@ In a **nondeterministic** machine after a given input we don't know in which wil
 * DFA, deterministic finite automaton
 * NFA, nondeterministic finite automaton (when the same input has two possible states, both *branches* are followed:
 
-![NFA example](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/resources/NFA%20example.png)
+![NFA example](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/images/NFA%20example.png)
 
 Every nondeterministic finite automaton has an equivalent deterministic finite automaton.
 
@@ -108,7 +108,7 @@ Why study unsolvability? Knowing when a problem is algorithmically unsolvable is
 
 Every context-free language is decidable (given a finite sequence of symbols as input, accepts it if belongs to the language and rejects it otherwise).
 
-![Relationship among classes of languages](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/resources/relationship_among_classes_of_languages.png)
+![Relationship among classes of languages](https://raw.githubusercontent.com/joaoantonioverdade/docs/master/images/relationship_among_classes_of_languages.png)
 
 
 One of the most philosophically important theorems of the theory of computation is the **halting problem**.
