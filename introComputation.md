@@ -226,3 +226,6 @@ n^3       | Cubic
 2^n       | Exponential
 
 
+[Python time complexity](https://wiki.python.org/moin/TimeComplexity)
+
+[Wikipedia time complexity description](https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions)
