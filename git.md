@@ -24,7 +24,7 @@ sudo apt-get install git
 
 * git clone git@github.com:joaoantonioverdade/newrepository.git
 
-# References
+## References
 
 [SSH keys] (https://help.github.com/articles/generating-ssh-keys/)
 
@@ -38,3 +38,8 @@ sudo apt-get install git
 #### client
 
 * git clone ssh://user@server/folder/rep.git <directory>
+
+
+#### show origin
+
+* git remote show origin
