@@ -10,12 +10,6 @@
 
 [Package Control](https://packagecontrol.io/)
 
-
-## Tips and Tweaks
-
-* multiple cursors (CTRL+SHIFT+L)
-* create array line by line and then joining line (CTRL+J)
-
 #### Adding a syntax specific ruller:
 
 open Syntax Specific settings and add:
@@ -31,17 +25,18 @@ Command Pallet + "Snippet" to show available.
 
 To activate the snippet, write down the activation word along with a TAB.
 
-## Common Pluggins
+## My keys
 
-* Emmet (zencoding)
-* Advance new file (SUPER+ALT+N)
-* Sidebar Enhancements
- * Open htmls with specific url server
-* Docblockr (no python...)
-* Plaintask
-* HTTP Requester (SUPERT+ALT+R)
-* Live Reload
-* GLUE
-
+* { "keys": ["f5"],  "command": "revert" }
+* { "keys": ["ctrl+."], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
+* { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } }
+* { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } }
  
+## My packages
 
+* Plaintasks
+* Latextools
+* Anaconda
+* SideBar
+* JSon Reindent
+* FTPSync
